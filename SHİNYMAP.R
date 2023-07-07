@@ -27,7 +27,6 @@ ui <- fluidPage(
         sidebarPanel(
             h1("Istanbul Shiny App",align = "center"),
             h6("Created by",align = "center"),
-            h6("Abdullah Mert Celikkol- 2361210",align = "center"),
             h6("Caglar Yalcin- 2291003 ",align = "center"),
             sliderInput(
                 "MPC", label = "Minimum Parking Capacity",
